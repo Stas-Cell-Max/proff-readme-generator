@@ -17,8 +17,8 @@ function renderLicenseBadge(license) {
     return badgeUrl ? `![License](${badgeUrl})` : '';
   }
   
-  // TODO: Create a function that returns the license link
-  // Map license names to corresponding license URLs
+// TODO: Create a function that returns the license link
+      // Map license names to corresponding license URLs
   const licenseLinks = {
     mit: 'https://opensource.org/licenses/MIT',
     apache: 'https://opensource.org/licenses/Apache-2.0',
@@ -37,15 +37,15 @@ function renderLicenseBadge(license) {
     return licenseUrl ? `[License](${licenseUrl})` : '';
   }
   
-  // TODO: Create a function that returns the license section of README
-  // Function to render the license section of README based on the provided license
+// TODO: Create a function that returns the license section of README
+      // Function to render the license section of README based on the provided license
   function renderLicenseSection(license) {
     const badge = renderLicenseBadge(license);
     const link = renderLicenseLink(license);
     return `${badge}\n${link}`;
   }
   
-  // TODO: Create a function to generate markdown for README
+// TODO: Create a function to generate markdown for README
   // Function to generate markdown for README
   function generateMarkdown(data) {
     return `# ${data.title} ${renderLicenseSection(data.license)}`;
