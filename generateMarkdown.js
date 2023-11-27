@@ -50,48 +50,55 @@ function renderLicenseBadge(license) {
   
 // TODO: Create a function to generate markdown for README
   // Function to generate markdown for README
-  function generateMarkdown(data) {
-    const markdownContent = `
-  # ${data.projectTitle}
   
-  ## Description
-  ${data.projectDescription}
-  
-  ## Table of Contents
-  - [Demo](#demo)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [References](#references)
-  - [Deployment](#deployment)
-
-  
-  ## Installation
-  ${data.installationInstructions}
-  
-  ## Usage
-  ${data.usageInformation}
-  
-  ## License
-  ![${data.license}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-blue)
-  
-  This project is covered under the ${data.license} license.
-  
-  ## Contributing
-  ${data.contributionGuidelines}
-  
-  ## Tests
-  ${data.testInstructions}
-  
-  ## References
-  For additional questions, you can reach me at [GitHub](https://github.com/${data.githubUsername}) or by email at ${data.email}.
-    `;
-    return markdownContent;
-  }
-  
-  module.exports = generateMarkdown;
-  
-
-
+    function generateMarkdown(data) {
+      const markdownContent = `
+    # ${data.projectTitle}
+    
+    ## Description
+    ${data.projectDescription}
+    
+    ## Table of Contents
+    - [Demo](#demo)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [References](#references)
+    - [Deployment](#deployment)
+    
+    ## Demo
+    ${data.demoInstructions || 'Add your demo information here.'}
+    
+    ## Installation
+    ${data.installationInstructions || 'Add your installation instructions here.'}
+    
+    ## Usage
+    ${data.usageInformation || 'Add your usage information here.'}
+    
+    ## License
+    ![${data.license}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-blue)
+    
+    This project is covered under the ${data.license} license.
+    
+    ## Contributing
+    ${data.contributionGuidelines || 'Add your contribution guidelines here.'}
+    
+    ## Tests
+    ${data.testInstructions || 'Add your test instructions here.'}
+    
+    ## References
+    ${data.references || 'Add your references here.'}
+    
+    ## Deployment
+    ${data.deploymentInfo || 'Add your deployment information here.'}
+    
+    For additional questions, you can reach me at [GitHub](https://github.com/${data.githubUsername}) or by email at ${data.email}.
+      `;
+    
+      return markdownContent;
+    }
+    
+    module.exports = generateMarkdown;
+    
