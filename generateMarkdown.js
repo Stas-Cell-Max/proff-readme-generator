@@ -51,8 +51,6 @@ function renderLicenseBadge(license) {
 // TODO: Create a function to generate markdown for README
   // Function to generate markdown for README
   function generateMarkdown(data) {
-    // 
-    
     const markdownContent = `
   # ${data.projectTitle}
   
@@ -60,12 +58,15 @@ function renderLicenseBadge(license) {
   ${data.projectDescription}
   
   ## Table of Contents
+  - [Demo](#demo)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions)
+  - [References](#references)
+  - [Deployment](#deployment)
+
   
   ## Installation
   ${data.installationInstructions}
@@ -84,7 +85,7 @@ function renderLicenseBadge(license) {
   ## Tests
   ${data.testInstructions}
   
-  ## Questions
+  ## References
   For additional questions, you can reach me at [GitHub](https://github.com/${data.githubUsername}) or by email at ${data.email}.
     `;
     return markdownContent;
