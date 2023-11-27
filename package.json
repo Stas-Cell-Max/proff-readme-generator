@@ -2,6 +2,7 @@
   "name": "proff-readme-generator",
   "version": "1.0.0",
   "description": "Professional README generator [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "title": "Proff Readme Generator",  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "inquirer": "^7.3.3"
   }
 }
