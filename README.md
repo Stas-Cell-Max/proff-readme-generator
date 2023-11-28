@@ -1,34 +1,44 @@
 
-  # Val Kol
-  
-  ## Description
-  Once you've completed these steps, you'll have the basic structure in place, and we can move on to the next steps. If everything is set up, let me know, and we can proceed with adding the inquirer prompts and gathering user input.
-  
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  
-  ## Installation
-  undefined
-  
-  ## Usage
-  undefined
-  
-  ## License
-  ![mit](https://img.shields.io/badge/License-mit-blue)
-  
-  This project is covered under the mit license.
-  
-  ## Contributing
-  undefined
-  
-  ## Tests
-  undefined
-  
-  ## Questions
-  For additional questions, you can reach me at [GitHub](https://github.com/undefined) or by email at undefined.
+    # Proffesional README Generator
     
+    ## Description
+    The README Generator App is a command-line tool developed to simplify and expedite the creation of professional README files for software projects. Built with Node.js and utilizing the Inquirer package, this application guides users through a series of prompts to gather essential information, including project details, installation instructions, usage guidelines, licensing, and more. The generated READMEs are structured, consistent, and enhance the documentation process for developers.
+    
+    ## Table of Contents
+    - [Demo](#demo)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [References](#references)
+    - [Deployment](#deployment)
+    
+    ## Demo
+    Add your demo information here.
+    
+    ## Installation
+    Add your installation instructions here.
+    
+    ## Usage
+    Add your usage information here.
+    
+    ## License
+    ![MIT](https://img.shields.io/badge/License-MIT-blue)
+    
+    This project is covered under the MIT license.
+    
+    ## Contributing
+    Add your contribution guidelines here.
+    
+    ## Tests
+    Add your test instructions here.
+    
+    ## References
+    https://www.npmjs.com/package/inquirer/v/8.2.4 ; https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide ; https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/
+    
+    ## Deployment
+    Add your deployment information here.
+    
+    For additional questions, you can reach me at [GitHub](https://github.com/undefined) or by email at undefined.
+      

@@ -20,7 +20,7 @@ const questions = [
     message: 'Provide a description for your project:',
   },
 
-  
+
   {
     type: 'input',
     name: 'demo',
@@ -90,10 +90,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  console.log('Inside init function');
+  //console.log('Inside init function');
   inquirer.prompt(questions).then((userInput) => {
     console.log('Inside inquirer.then block');
-    const markdown = generateMarkdown(userInput);
+   // const markdown = generateMarkdown(userInput);
     writeToFile('README.md', markdown);
   });
 }
