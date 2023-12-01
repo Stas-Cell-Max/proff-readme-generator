@@ -68,18 +68,16 @@ const questions = [
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-  //console.log('Inside writeToFile function');
+  
   fs.writeFile(fileName, data, (err) => {
     if (err) {
       console.error(err);
     } else {
-      console.log('README generated successfully!');
+      console.log('README generating compelete!');
     }
   });
 }
   
- 
-
   // Start the README generator
   function init() {
     inquirer.prompt(questions).then((userInput) => {
@@ -90,10 +88,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  //console.log('Inside init function');
   inquirer.prompt(questions).then((userInput) => {
     console.log('Inside inquirer.then block');
-   // const markdown = generateMarkdown(userInput);
     writeToFile('README.md', markdown);
   });
 }

@@ -31,17 +31,17 @@ function renderLicenseBadge(license) {
     if (!license || license.toLowerCase() === 'none') {
       return ''; // Return an empty string if no license or 'None' is selected
     }
-    // Get the corresponding license URL based on the provided license
+    // Get the corresponding license URL based on the provided license types
     const licenseUrl = licenseLinks[license.toLowerCase()];
   
     return licenseUrl ? `[License](${licenseUrl})` : '';
   }
   
 // TODO: Create a function that returns the license section of README
-      // Function to render the license section of README based on the provided license
+      // Function to generate the license section of README based on the provided license
       function renderLicenseSection(license) {
         console.log('Inside renderLicenseSection function');
-        console.log('License received:', license);  // Add this line for debugging
+        
       
         const badge = renderLicenseBadge(license);
         const link = renderLicenseLink(license);
