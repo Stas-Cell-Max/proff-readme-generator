@@ -33,7 +33,6 @@ function renderLicenseBadge(license) {
     }
     // Get the corresponding license URL based on the provided license types
     const licenseUrl = licenseLinks[license.toLowerCase()];
-  
     return licenseUrl ? `[License](${licenseUrl})` : '';
   }
   
@@ -41,8 +40,6 @@ function renderLicenseBadge(license) {
       // Function to generate the license section of README based on the provided license
       function renderLicenseSection(license) {
         console.log('Inside renderLicenseSection function');
-        
-      
         const badge = renderLicenseBadge(license);
         const link = renderLicenseLink(license);
         return `${badge}\n${link}`;
