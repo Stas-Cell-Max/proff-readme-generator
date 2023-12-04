@@ -78,18 +78,12 @@ function writeToFile(fileName, data) {
   });
 }
   
-  // Start the README generator
-  function init() {
-    inquirer.prompt(questions).then((userInput) => {
-      const markdown = generateMarkdown(userInput);
-      writeToFile('README.md', markdown);
-    });
-  }
 
-// TODO: Create a function to initialize app
+// TODO: Create a function to initializethe README generator app
+
 function init() {
   inquirer.prompt(questions).then((userInput) => {
-    console.log('Inside inquirer.then block');
+    const markdown = generateMarkdown(userInput);
     writeToFile('README.md', markdown);
   });
 }
