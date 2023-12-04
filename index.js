@@ -89,8 +89,7 @@ function init() {
 }
 
 // Function call to initialize app
-console.log('Before init function call'); // Add this line for debugging
 init();
-console.log('After init function call'); // Add this line for debugging
+
 
 
