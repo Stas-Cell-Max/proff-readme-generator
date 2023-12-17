@@ -19,12 +19,10 @@ const questions = [
     name: 'projectDescription',
     message: 'Provide a description for your project:',
   },
-
-
   {
     type: 'input',
     name: 'demo',
-    message: 'Can you provide a link to the demo of your project? (optional)',
+    message: 'Can you provide a link to the demo of your project?',
   },
 
   {
@@ -63,11 +61,7 @@ const questions = [
     name: 'deployment',
     message: 'Provide the link with the project deployed.',
   },
-  {
-    type: 'input',
-    name: 'walkthrough-video',
-    message: 'Provide the link with the walkthrough-video.',
-  },
+
   {
     type: 'input',
     name: 'author',
