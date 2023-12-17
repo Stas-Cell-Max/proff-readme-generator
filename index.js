@@ -61,7 +61,22 @@ const questions = [
   {
     type: 'input',
     name: 'deployment',
-    message: 'Provide the link with the project deployed?',
+    message: 'Provide the link with the project deployed.',
+  },
+  {
+    type: 'input',
+    name: 'walkthrough-video',
+    message: 'Provide the link with the walkthrough-video.',
+  },
+  {
+    type: 'input',
+    name: 'author',
+    message: 'Who is the author?',
+  },
+  {
+    type: 'input',
+    name: 'contacts',
+    message: 'Provide the github profile link and an email.',
   },
 ];
 
