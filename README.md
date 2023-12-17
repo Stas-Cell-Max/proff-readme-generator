@@ -2,7 +2,7 @@
     # proff-readme-generator
     
     ## Description
-     The proff-readme-generator is a command-line tool developed to simplify and expedite the creation of professional README files for software projects. Built with Node.js and utilizing the Inquirer package, this application guides users through a series of prompts to gather essential information, including project details, installation instructions, usage guidelines, licensing, and more. The generated READMEs are structured, consistent, and enhance the documentation process for developers.
+    The proff-readme-generator is a command-line tool developed to simplify and expedite the creation of professional README files for software projects. Built with Node.js and utilizing the Inquirer package, this application guides users through a series of prompts to gather essential information, including project details, installation instructions, usage guidelines, licensing, and more. The generated READMEs are structured, consistent, and enhance the documentation process for developers.
     
     ## Table of Contents
     - [Demo](#demo)
@@ -26,9 +26,9 @@
     Add your usage information here.
     
     ## License
-    ![MIT](https://img.shields.io/badge/License-MIT-blue)
+    ![Apache](https://img.shields.io/badge/License-Apache-blue)
     
-    This project is covered under the MIT license.
+    This project is covered under the Apache license.
     
     ## Contributing
     Add your contribution guidelines here.

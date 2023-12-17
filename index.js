@@ -69,7 +69,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contacts',
+    name: 'questions',
     message: 'Provide the github profile link and an email.',
   },
 ];
