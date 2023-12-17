@@ -65,6 +65,9 @@ function renderLicenseBadge(license) {
     - [Tests](#tests)
     - [References](#references)
     - [Deployment](#deployment)
+    - [Walkthrough Video](#walkthrough-video)
+    - [Author](#author)
+    - [Contacts](#contacts)
     
     ## Demo
     ${data.demoInstructions || 'Add your demo information here.'}
