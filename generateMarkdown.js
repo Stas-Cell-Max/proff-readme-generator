@@ -69,13 +69,13 @@ function renderLicenseBadge(license) {
     - [Questions](#questions)
     
     ## Demo
-    ${data.demoInstructions || 'Add your demo information here.'}
+    ${data.demo || 'Add your demo information here.'}
     
     ## Installation
-    ${data.installationInstructions || 'Add your installation instructions here.'}
+    ${data.installation|| 'Add your installation instructions here.'}
     
     ## Usage
-    ${data.usageInformation || 'Add your usage information here.'}
+    ${data.usage || 'Add your usage information here.'}
     
     ## License
     ![${data.license}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-blue)
@@ -83,16 +83,22 @@ function renderLicenseBadge(license) {
     This project is covered under the ${data.license} license.
     
     ## Contributing
-    ${data.contributionGuidelines || 'Add your contribution guidelines here.'}
+    ${data.contribution || 'Add your contribution guidelines here.'}
     
     ## Tests
-    ${data.testInstructions || 'Add your test instructions here.'}
+    ${data.tests || 'Add your test instructions here.'}
     
     ## References
     ${data.references || 'Add your references here.'}
     
     ## Deployment
-    ${data.deploymentInfo || 'Add your deployment information here.'}
+    ${data.deployment || 'Add your deployment information here.'}
+
+    ## Author
+    ${data.author || 'Who is the author?'}
+
+    ## Questions 
+    ${data.questions || 'Provide the github profile link and an email.'}
     
     For additional questions, you can reach me at [GitHub](https://github.com/${data.githubUsername}) or by email at ${data.email}.
       `;
