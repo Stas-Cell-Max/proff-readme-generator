@@ -43,7 +43,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contributing',
+    name: 'contribution',
     message: 'How can others contribute to your project?',
   },
   {
