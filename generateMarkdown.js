@@ -100,11 +100,9 @@ function renderLicenseBadge(license) {
     ## Questions 
     ${data.questions || 'Provide the github profile link and an email.'}
     
-    For additional questions, you can reach me at [GitHub](https://github.com/${data.githubUsername}) or by email at ${data.email}.
-      `;
+    `;
     
       return markdownContent;
     }
-    
     module.exports = generateMarkdown;
     

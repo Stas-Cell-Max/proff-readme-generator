@@ -17,7 +17,7 @@
     - [Questions](#questions)
     
     ## Demo
-    ? https://drive.google.com/file/d/1pJqg-CSdmSTt4CeXDRztS27pJGzhcWEJ/view?pli=1
+    Here is the link to the walkthrough video: https://drive.google.com/file/d/1e-wg91oQebnSdzQru3BAPXKO2NZ0QE3z/view
     
     ## Installation
     Clone the repository: [GitHub Repo Link](# git@github.com:Stas-Cell-Max/proff-readme-generator.git).Install Node.js. Open the cloned repository in any source code editor. Open the integrated terminal for the document and complete the installation guides provided above.
@@ -31,22 +31,22 @@
     This project is covered under the Apache license.
     
     ## Contributing
-    Add your contribution guidelines here.
+    If you'd like to contribute to this project, please open an issue or submit a pull request. Contributions are welcome!
     
     ## Tests
     Jest tests are included.
     
     ## References
-    https://www.npmjs.com/package/inquirer/v/8.2.4 ; https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide ; https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/
+    https://www.npmjs.com/package/inquirer/v/8.2.4 ; https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide ; https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e
     
     ## Deployment
-    https://github.com/Stas-Cell-Max/proff-readme-generator
+    Follow this link: https://github.com/Stas-Cell-Max/proff-readme-generator
 
     ## Author
     Stanislav Morozan
 
     ## Questions 
-    . https://github.com/Stas-Cell-Max   stanislav.morozan@gmail.com
+    For additional questions, you can reach me at: https://github.com/Stas-Cell-Max or stanislav.morozan@gmail.com
     
-    For additional questions, you can reach me at [GitHub](https://github.com/undefined) or by email at undefined.
+    
       
